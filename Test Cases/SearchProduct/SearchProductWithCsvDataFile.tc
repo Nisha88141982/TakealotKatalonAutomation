@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SearchProductWithCsvDataFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>794480dd-a857-498d-9f0c-e3c9b96c9af5</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7cc79dba-1153-4641-8d6e-f63f4fe71d85</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/SearchKeyword/DataBinding</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>7cc79dba-1153-4641-8d6e-f63f4fe71d85</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>SearchKeyword</value>
+      <variableId>6dded272-89b5-4f02-8d33-97d5e2322a42</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6dded272-89b5-4f02-8d33-97d5e2322a42</id>
+      <masked>false</masked>
+      <name>SearchKeyword</name>
+   </variable>
+</TestCaseEntity>

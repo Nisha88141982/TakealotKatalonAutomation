@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginTestSuite,Chrome 120.0.0.0,,,19-12-2023 08:32:29,19-12-2023 08:33:27,"57,280s",PASSED
+,,,,,,,
+Test Cases/Login/LoginWithRightPassword,Chrome 120.0.0.0,,,19-12-2023 08:32:30,19-12-2023 08:32:44,"14,198s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-12-2023 08:32:30,19-12-2023 08:32:36,"6,577s",PASSED
+"click(findTestObject(""Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login""))",Chrome 120.0.0.0,,,19-12-2023 08:32:36,19-12-2023 08:32:37,"1,027s",PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email""), LoginEmailVariable)",Chrome 120.0.0.0,,,19-12-2023 08:32:37,19-12-2023 08:32:40,"2,148s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password""), LoginPassword)",Chrome 120.0.0.0,,,19-12-2023 08:32:40,19-12-2023 08:32:40,"0,749s",PASSED
+"click(findTestObject(""Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login""))",Chrome 120.0.0.0,,,19-12-2023 08:32:40,19-12-2023 08:32:41,"0,645s",PASSED
+"click(findTestObject(""Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Logout""))",Chrome 120.0.0.0,,,19-12-2023 08:32:41,19-12-2023 08:32:44,"2,494s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-12-2023 08:32:44,19-12-2023 08:32:44,"0,185s",PASSED
+,,,,,,,
+Test Cases/Login/LoginWithWrongPassword,Chrome 120.0.0.0,,,19-12-2023 08:32:44,19-12-2023 08:33:27,"42,850s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-12-2023 08:32:44,19-12-2023 08:32:50,"6,004s",PASSED
+"click(findTestObject(""Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login""))",Chrome 120.0.0.0,,,19-12-2023 08:32:50,19-12-2023 08:32:51,"1,176s",PASSED
+"setText(findTestObject(""Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email""), ""nishapatahk77@gmail.com"")",Chrome 120.0.0.0,,,19-12-2023 08:32:51,19-12-2023 08:32:53,"2,112s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password""), ""XI0BHqZL+qMAClzREvMtPQ=="")",Chrome 120.0.0.0,,,19-12-2023 08:32:53,19-12-2023 08:32:54,"0,554s",PASSED
+"click(findTestObject(""Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login""))",Chrome 120.0.0.0,,,19-12-2023 08:32:54,19-12-2023 08:32:54,"0,618s",PASSED
+"verifyElementText(findTestObject(""LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs leading online store/div_Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled""), ""Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled."")",Chrome 120.0.0.0,,,19-12-2023 08:32:54,19-12-2023 08:33:26,"31,849s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-12-2023 08:33:26,19-12-2023 08:33:27,"0,435s",PASSED

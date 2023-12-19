@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RegistrationTestSuite,Chrome 120.0.0.0,,,19-12-2023 08:36:15,19-12-2023 08:36:33,"18,379s",PASSED
+,,,,,,,
+Test Cases/Registration/RegistrationNegativeTestCase,Chrome 120.0.0.0,,,19-12-2023 08:36:15,19-12-2023 08:36:33,"18,137s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,19-12-2023 08:36:15,19-12-2023 08:36:22,"7,127s",PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Register""))",Chrome 120.0.0.0,,,19-12-2023 08:36:22,19-12-2023 08:36:23,"1,165s",PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_first_name""), ""Nisha"")",Chrome 120.0.0.0,,,19-12-2023 08:36:23,19-12-2023 08:36:25,"1,465s",PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_last_name""), ""Pathak"")",Chrome 120.0.0.0,,,19-12-2023 08:36:25,19-12-2023 08:36:27,"2,094s",PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email""), ""nishapathak77@gmail.com"")",Chrome 120.0.0.0,,,19-12-2023 08:36:27,19-12-2023 08:36:28,"0,860s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_new_password""), ""5Ri+UBm+DS+cDcjYw/t4pA0KJUE2Y9h69fxaoN3tl3c="")",Chrome 120.0.0.0,,,19-12-2023 08:36:28,19-12-2023 08:36:28,"0,621s",PASSED
+"setText(findTestObject(""Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_mobile_national_number""), ""842284672"")",Chrome 120.0.0.0,,,19-12-2023 08:36:28,19-12-2023 08:36:29,"0,765s",PASSED
+"click(findTestObject(""Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Got it""), OPTIONAL)",Chrome 120.0.0.0,,,19-12-2023 08:36:29,19-12-2023 08:36:30,"0,529s",PASSED
+"click(findTestObject(""Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Continue""))",Chrome 120.0.0.0,,,19-12-2023 08:36:30,19-12-2023 08:36:33,"3,110s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,19-12-2023 08:36:33,19-12-2023 08:36:33,"0,208s",PASSED

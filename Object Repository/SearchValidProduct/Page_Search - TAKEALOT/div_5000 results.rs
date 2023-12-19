@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_5000 results</name>
+   <tag></tag>
+   <elementGuidId>88f05499-93b3-47de-8fa6-84c0d3050265</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.search-count.toolbar-module_search-count_P0ViI.search-count-module_search-count_1oyVQ</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shopfront-app']/div[4]/div[2]/div[2]/div/div[2]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>10fc708f-58a0-4008-8e08-12e1097226f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>search-count toolbar-module_search-count_P0ViI search-count-module_search-count_1oyVQ</value>
+      <webElementGuid>50ffd51e-c9f7-4802-a431-a1d4bee2efdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ref</name>
+      <type>Main</type>
+      <value>search-count</value>
+      <webElementGuid>8c0eb168-9353-4370-aafc-af0106d01ad4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5000+ results </value>
+      <webElementGuid>efaff1d9-8d1f-435a-9037-4da502d6d029</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopfront-app&quot;)/div[@class=&quot;grid-container search-listings-module_search-listings_2Lw_d&quot;]/div[@class=&quot;grid-x grid-margin-x&quot;]/div[@class=&quot;cell auto&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;grid-x toolbar-module_container_1Uk1k&quot;]/div[@class=&quot;cell small-12 medium-auto medium-order-1 toolbar-module_count-cell_2wrNQ&quot;]/div[@class=&quot;search-count toolbar-module_search-count_P0ViI search-count-module_search-count_1oyVQ&quot;]</value>
+      <webElementGuid>e5069460-7018-4ea7-93cb-2f8b93f028d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shopfront-app']/div[4]/div[2]/div[2]/div/div[2]/div[2]/div</value>
+      <webElementGuid>35e6c021-52b2-4bd2-aac7-a9fd4de80372</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[2]/div</value>
+      <webElementGuid>431527c5-d868-4a31-ab93-4c42b2618c7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '5000+ results ' or . = '5000+ results ')]</value>
+      <webElementGuid>e7a122ea-1e95-429a-9ecf-9a00d159378c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ftxytxytxt" time="56.511" tests="3" failures="0" errors="0">
+   <testsuite name="ftxytxytxt" tests="3" failures="0" errors="0" time="56.511" skipped="0" timestamp="18-12-2023T22:23:53" hostname="nisha - DESKTOP-0OUTVH0" id="Test Suites/ftxytxytxt">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nisha\\git\\TakealotKatalonAutomation\\Reports\\20231218_222346\\ftxytxytxt\\20231218_222347"/>
+         <property name="logFiles" value="C:\\Users\\nisha\\git\\TakealotKatalonAutomation\\Reports\\20231218_222346\\ftxytxytxt\\20231218_222347\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nisha - DESKTOP-0OUTVH0"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.3.138"/>
+         <property name="sessionId" value="5b943e0a9b1d11ad6fe268afba1700ec"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/SearchProductWithCsvDataFile" time="20.054" classname="Test Cases/SearchProductWithCsvDataFile" status="PASSED">
+         <system-out><![CDATA[18-12-2023T22:23:53 - [TEST_CASE][PASSED] - Test Cases/SearchProductWithCsvDataFile: Test Cases/SearchProductWithCsvDataFile
+
+18-12-2023T22:23:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+18-12-2023T22:23:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-12-2023T22:23:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T22:23:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T22:23:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T22:23:55 - [TEST_STEP][PASSED] - navigateToUrl(WebsiteURL): Navigate to 'https://www.takealot.com' successfully
+
+18-12-2023T22:24:00 - [MESSAGE][PASSED] - Navigate to 'https://www.takealot.com' successfully
+
+18-12-2023T22:24:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-12-2023T22:24:00 - [MESSAGE][PASSED] - Current window maximized
+
+18-12-2023T22:24:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login")): Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+18-12-2023T22:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+18-12-2023T22:24:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email"), "nishapathak77@gmail.com"): Text 'nishapathak77@gmail.com' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+18-12-2023T22:24:04 - [MESSAGE][PASSED] - Text 'nishapathak77@gmail.com' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+18-12-2023T22:24:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password"), "60coEWBzUaguqMoMXWkjBQ=="): Text ****** has been set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+18-12-2023T22:24:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+18-12-2023T22:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login")): Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+18-12-2023T22:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+18-12-2023T22:24:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search"), SearchKeyword): Text 'iphone' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:09 - [MESSAGE][PASSED] - Text 'iphone' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+18-12-2023T22:24:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-12-2023T22:24:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SearchProductWithCsvDataFile" time="18.062" classname="Test Cases/SearchProductWithCsvDataFile" status="PASSED">
+         <system-out><![CDATA[18-12-2023T22:24:13 - [TEST_CASE][PASSED] - Test Cases/SearchProductWithCsvDataFile: Test Cases/SearchProductWithCsvDataFile
+
+18-12-2023T22:24:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+18-12-2023T22:24:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-12-2023T22:24:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T22:24:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T22:24:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T22:24:14 - [TEST_STEP][PASSED] - navigateToUrl(WebsiteURL): Navigate to 'https://www.takealot.com' successfully
+
+18-12-2023T22:24:19 - [MESSAGE][PASSED] - Navigate to 'https://www.takealot.com' successfully
+
+18-12-2023T22:24:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-12-2023T22:24:19 - [MESSAGE][PASSED] - Current window maximized
+
+18-12-2023T22:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login")): Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+18-12-2023T22:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+18-12-2023T22:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email"), "nishapathak77@gmail.com"): Text 'nishapathak77@gmail.com' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+18-12-2023T22:24:22 - [MESSAGE][PASSED] - Text 'nishapathak77@gmail.com' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+18-12-2023T22:24:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password"), "60coEWBzUaguqMoMXWkjBQ=="): Text ****** has been set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+18-12-2023T22:24:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+18-12-2023T22:24:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login")): Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+18-12-2023T22:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+18-12-2023T22:24:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search"), SearchKeyword): Text 'cat' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:28 - [MESSAGE][PASSED] - Text 'cat' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+18-12-2023T22:24:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-12-2023T22:24:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SearchProductWithCsvDataFile" time="17.909" classname="Test Cases/SearchProductWithCsvDataFile" status="PASSED">
+         <system-out><![CDATA[18-12-2023T22:24:31 - [TEST_CASE][PASSED] - Test Cases/SearchProductWithCsvDataFile: Test Cases/SearchProductWithCsvDataFile
+
+18-12-2023T22:24:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+18-12-2023T22:24:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-12-2023T22:24:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T22:24:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T22:24:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T22:24:32 - [TEST_STEP][PASSED] - navigateToUrl(WebsiteURL): Navigate to 'https://www.takealot.com' successfully
+
+18-12-2023T22:24:37 - [MESSAGE][PASSED] - Navigate to 'https://www.takealot.com' successfully
+
+18-12-2023T22:24:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-12-2023T22:24:37 - [MESSAGE][PASSED] - Current window maximized
+
+18-12-2023T22:24:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login")): Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+18-12-2023T22:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+18-12-2023T22:24:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email"), "nishapathak77@gmail.com"): Text 'nishapathak77@gmail.com' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+18-12-2023T22:24:41 - [MESSAGE][PASSED] - Text 'nishapathak77@gmail.com' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+18-12-2023T22:24:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password"), "60coEWBzUaguqMoMXWkjBQ=="): Text ****** has been set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+18-12-2023T22:24:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+18-12-2023T22:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login")): Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+18-12-2023T22:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+18-12-2023T22:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search"), SearchKeyword): Text 'samsung phones' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:46 - [MESSAGE][PASSED] - Text 'samsung phones' is set on object 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search'
+
+18-12-2023T22:24:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+18-12-2023T22:24:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-12-2023T22:24:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-12-2023T22:23:53 - [TEST_SUITE][PASSED] - ftxytxytxt: Test Cases/SearchProductWithCsvDataFile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

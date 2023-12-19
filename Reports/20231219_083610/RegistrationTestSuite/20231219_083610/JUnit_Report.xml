@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegistrationTestSuite" time="18.379" tests="1" failures="0" errors="0">
+   <testsuite name="RegistrationTestSuite" tests="1" failures="0" errors="0" time="18.379" skipped="0" timestamp="19-12-2023T08:36:15" hostname="nisha - DESKTOP-0OUTVH0" id="Test Suites/RegistrationTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nisha\\git\\TakealotKatalonAutomation\\Reports\\20231219_083610\\RegistrationTestSuite\\20231219_083610"/>
+         <property name="logFiles" value="C:\\Users\\nisha\\git\\TakealotKatalonAutomation\\Reports\\20231219_083610\\RegistrationTestSuite\\20231219_083610\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nisha - DESKTOP-0OUTVH0"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.3.138"/>
+         <property name="sessionId" value="8e757b1d71100f2591e8fe4c13ea7d5a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Registration/RegistrationNegativeTestCase" time="18.137" classname="Test Cases/Registration/RegistrationNegativeTestCase" status="PASSED">
+         <system-out><![CDATA[19-12-2023T08:36:15 - [TEST_CASE][PASSED] - Test Cases/Registration/RegistrationNegativeTestCase: Test Cases/Registration/RegistrationNegativeTestCase
+
+19-12-2023T08:36:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+19-12-2023T08:36:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-12-2023T08:36:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-12-2023T08:36:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-12-2023T08:36:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-12-2023T08:36:17 - [TEST_STEP][PASSED] - navigateToUrl(WebsiteURL): Navigate to 'https://www.takealot.com' successfully
+
+19-12-2023T08:36:22 - [MESSAGE][PASSED] - Navigate to 'https://www.takealot.com' successfully
+
+19-12-2023T08:36:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-12-2023T08:36:22 - [MESSAGE][PASSED] - Current window maximized
+
+19-12-2023T08:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Register")): Object: 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Register' is clicked on
+
+19-12-2023T08:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Register' is clicked on
+
+19-12-2023T08:36:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_first_name"), "Nisha"): Text 'Nisha' is set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_first_name'
+
+19-12-2023T08:36:25 - [MESSAGE][PASSED] - Text 'Nisha' is set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_first_name'
+
+19-12-2023T08:36:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_last_name"), "Pathak"): Text 'Pathak' is set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_last_name'
+
+19-12-2023T08:36:27 - [MESSAGE][PASSED] - Text 'Pathak' is set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_last_name'
+
+19-12-2023T08:36:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email"), "nishapathak77@gmail.com"): Text 'nishapathak77@gmail.com' is set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+19-12-2023T08:36:28 - [MESSAGE][PASSED] - Text 'nishapathak77@gmail.com' is set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+19-12-2023T08:36:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_new_password"), "5Ri+UBm+DS+cDcjYw/t4pA0KJUE2Y9h69fxaoN3tl3c="): Text ****** has been set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_new_password'
+
+19-12-2023T08:36:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_new_password'
+
+19-12-2023T08:36:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_mobile_national_number"), "842284672"): Text '842284672' is set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_mobile_national_number'
+
+19-12-2023T08:36:29 - [MESSAGE][PASSED] - Text '842284672' is set on object 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_mobile_national_number'
+
+19-12-2023T08:36:29 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Got it"), OPTIONAL): Object: 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Got it' is clicked on
+
+19-12-2023T08:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Got it' is clicked on
+
+19-12-2023T08:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Continue")): Object: 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Continue' is clicked on
+
+19-12-2023T08:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Continue' is clicked on
+
+19-12-2023T08:36:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+19-12-2023T08:36:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-12-2023T08:36:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-12-2023T08:36:15 - [TEST_SUITE][PASSED] - RegistrationTestSuite: Test Cases/Registration/RegistrationNegativeTestCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

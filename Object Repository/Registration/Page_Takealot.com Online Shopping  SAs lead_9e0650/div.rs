@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div</name>
+   <tag></tag>
+   <elementGuidId>df3b287a-e3c9-41dc-9ed3-af3f5124c4a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='body']/div[4]/div/div/div/div/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.scroll-wrapper > div:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0bf095b3-937f-467c-97ed-1e7e64889720</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;body&quot;)/div[4]/div[@class=&quot;modal-wrapper modal-wrapper-auth-modal undefined modal-module_modal-wrapper_23HFN&quot;]/div[@class=&quot;modal-module_modal-container_fBbBL modal-module_with-close_2b3bC&quot;]/div[@class=&quot;modal auth-modal medium modal-module_modal_OOLjP&quot;]/div[@class=&quot;modal-body modal-module_modal-body_81lrM&quot;]/div[@class=&quot;modal-content modal-module_modal-content_3tE7B modal-module_scrolling_1xj44&quot;]/div[@class=&quot;scroll-wrapper&quot;]/div[3]</value>
+      <webElementGuid>49718bb0-8a67-4d06-8a5b-368dcac54b69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='body']/div[4]/div/div/div/div/div/div/div[3]</value>
+      <webElementGuid>8af13349-bf9f-4064-8d8f-eeb450e27f4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div/div[3]</value>
+      <webElementGuid>fa8d22cf-bfd4-4d3e-8757-8b57a3bf6042</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

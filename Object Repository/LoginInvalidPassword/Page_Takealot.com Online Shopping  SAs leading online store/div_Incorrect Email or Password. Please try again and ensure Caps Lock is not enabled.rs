@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled</name>
+   <tag></tag>
+   <elementGuidId>4f2ec522-36e7-4ca6-a96f-85a57f13b90c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.message.alert-banner-module_message_2sinO</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='body']/div[5]/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3951716c-0077-484f-8203-ec7ec6c48b55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>message alert-banner-module_message_2sinO</value>
+      <webElementGuid>ca2d56eb-1433-4b9c-8c6b-59b890389e8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled.</value>
+      <webElementGuid>58707941-e623-4f33-931c-ea6b253c905b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;body&quot;)/div[5]/div[@class=&quot;modal-wrapper modal-wrapper-auth-modal undefined modal-module_modal-wrapper_23HFN&quot;]/div[@class=&quot;modal-module_modal-container_fBbBL modal-module_with-close_2b3bC&quot;]/div[@class=&quot;modal auth-modal medium modal-module_modal_OOLjP&quot;]/div[@class=&quot;modal-body modal-module_modal-body_81lrM&quot;]/div[@class=&quot;modal-content modal-module_modal-content_3tE7B modal-module_scrolling_1xj44&quot;]/div[@class=&quot;scroll-wrapper&quot;]/div[1]/div[@class=&quot;login-form login login-module_panel_1oMlb&quot;]/div[@class=&quot;login-form  login-module_login-form_2gq4Q login-module_form-container_1K_p-&quot;]/div[@class=&quot;app-notification&quot;]/div[@class=&quot;grid-x align-middle alert-banner red alert-banner-module_red_1pGLR alert-banner-module_alert-banner_24zmo&quot;]/div[@class=&quot;cell auto content alert-banner-module_content_1N85x&quot;]/div[@class=&quot;grid-x&quot;]/div[@class=&quot;cell auto message-container&quot;]/div[@class=&quot;message alert-banner-module_message_2sinO&quot;]</value>
+      <webElementGuid>37615b4f-408b-4bf4-b11c-1daedb76d116</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='body']/div[5]/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>52f8b8e0-a0fc-43de-bd2d-cc8798f71c8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>4aa519ac-b58e-4ae1-9315-3f5c6e0926c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled.' or . = 'Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled.')]</value>
+      <webElementGuid>781274ef-618a-46c7-8f1b-7fe05c6d35d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

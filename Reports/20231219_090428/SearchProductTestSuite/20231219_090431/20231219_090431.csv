@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SearchProductTestSuite,Edge Chromium 120,,,19-12-2023 09:04:40,19-12-2023 09:05:26,"45,429s",PASSED
+,,,,,,,
+Test Cases/SearchProduct/SearchProductWithInvalidKeyword,Edge Chromium 120,,,19-12-2023 09:04:41,19-12-2023 09:05:04,"23,404s",PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,19-12-2023 09:04:41,19-12-2023 09:04:51,"10,189s",PASSED
+"click(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login""))",Edge Chromium 120,,,19-12-2023 09:04:51,19-12-2023 09:04:53,"1,415s",PASSED
+"setText(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email""), ""nishapathak77@gmail.com"")",Edge Chromium 120,,,19-12-2023 09:04:53,19-12-2023 09:04:55,"2,342s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password""), ""60coEWBzUaguqMoMXWkjBQ=="")",Edge Chromium 120,,,19-12-2023 09:04:55,19-12-2023 09:04:56,"0,712s",PASSED
+"click(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login""))",Edge Chromium 120,,,19-12-2023 09:04:56,19-12-2023 09:04:56,"0,631s",PASSED
+"setText(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search""), ""ftxtr7587fo8vx74s5d6trx"")",Edge Chromium 120,,,19-12-2023 09:04:56,19-12-2023 09:04:59,"2,919s",PASSED
+"sendKeys(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search""), Keys.chord(ENTER))",Edge Chromium 120,,,19-12-2023 09:04:59,19-12-2023 09:05:03,"3,245s",PASSED
+"verifyElementNotPresent(findTestObject(""SearchValidProduct/Page_Search - TAKEALOT/div_5000 results""), 2)",Edge Chromium 120,,,19-12-2023 09:05:03,19-12-2023 09:05:03,"0,682s",PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,19-12-2023 09:05:03,19-12-2023 09:05:04,"0,681s",PASSED
+,,,,,,,
+Test Cases/SearchProduct/SearchProductWithValidKeyword,Edge Chromium 120,,,19-12-2023 09:05:04,19-12-2023 09:05:26,"21,554s",PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 120,,,19-12-2023 09:05:04,19-12-2023 09:05:13,"8,859s",PASSED
+"click(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login""))",Edge Chromium 120,,,19-12-2023 09:05:13,19-12-2023 09:05:14,"1,073s",PASSED
+"setText(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email""), ""nishapathak77@gmail.com"")",Edge Chromium 120,,,19-12-2023 09:05:14,19-12-2023 09:05:16,"2,020s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password""), ""60coEWBzUaguqMoMXWkjBQ=="")",Edge Chromium 120,,,19-12-2023 09:05:16,19-12-2023 09:05:17,"0,719s",PASSED
+"click(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login""))",Edge Chromium 120,,,19-12-2023 09:05:17,19-12-2023 09:05:17,"0,518s",PASSED
+"setText(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search""), ""iphone"")",Edge Chromium 120,,,19-12-2023 09:05:17,19-12-2023 09:05:20,"2,925s",PASSED
+"sendKeys(findTestObject(""Object Repository/SearchValidProduct/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_search""), Keys.chord(ENTER))",Edge Chromium 120,,,19-12-2023 09:05:20,19-12-2023 09:05:23,"2,798s",PASSED
+"verifyElementPresent(findTestObject(""SearchValidProduct/Page_Search - TAKEALOT/div_5000 results""), 2)",Edge Chromium 120,,,19-12-2023 09:05:23,19-12-2023 09:05:25,"1,941s",PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 120,,,19-12-2023 09:05:25,19-12-2023 09:05:26,"0,533s",PASSED

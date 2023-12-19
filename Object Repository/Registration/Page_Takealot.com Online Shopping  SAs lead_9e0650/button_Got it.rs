@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Got it</name>
+   <tag></tag>
+   <elementGuidId>bd37b0b2-f58f-4ea7-8183-971506a1a9a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shopfront-app']/div/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button.cookies-banner-module_dismiss-button_24Z98</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f67c2764-fafa-4ce9-a01f-55c38a1fd501</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button cookies-banner-module_dismiss-button_24Z98</value>
+      <webElementGuid>5b3c0b57-7fef-4435-9b72-05e1209cf0c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Got it</value>
+      <webElementGuid>bd19808a-f81e-42c1-8a15-da3e62cd41f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopfront-app&quot;)/div[@class=&quot;header-module_bottom-banners-container_3F8RC&quot;]/div[1]/div[@class=&quot;cookies-banner-module_cookie-banner_hsodu&quot;]/button[@class=&quot;button cookies-banner-module_dismiss-button_24Z98&quot;]</value>
+      <webElementGuid>6542542a-0843-4fe4-8e83-0c495def6e14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shopfront-app']/div/div/div/button</value>
+      <webElementGuid>544b466b-1366-457c-9f3a-395c3a4667dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>87e9f569-d88c-4ab5-a7c7-3755c2540a88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Got it' or . = 'Got it')]</value>
+      <webElementGuid>f9c05b96-187b-41d0-9e02-c0ea77850640</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

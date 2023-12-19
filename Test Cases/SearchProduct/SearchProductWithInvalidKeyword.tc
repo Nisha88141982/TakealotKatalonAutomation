@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SearchProductWithInvalidKeyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1dbc6ed-b362-4043-9fb4-56c8b7b7d079</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/SearchProductWithCsvDataFile","testCaseId":"Test Cases/SearchProductWithCsvDataFile","iterationVariableName":"SearchKeyword","bindedValues":{"SearchKeyword":"\u0027iphone\u0027"}}
+{"testCaseName":"Test Cases/SearchProductWithCsvDataFile","testCaseId":"Test Cases/SearchProductWithCsvDataFile","iterationVariableName":"SearchKeyword","bindedValues":{"SearchKeyword":"\u0027cat\u0027"}}
+{"testCaseName":"Test Cases/SearchProductWithCsvDataFile","testCaseId":"Test Cases/SearchProductWithCsvDataFile","iterationVariableName":"SearchKeyword","bindedValues":{"SearchKeyword":"\u0027samsung phones\u0027"}}

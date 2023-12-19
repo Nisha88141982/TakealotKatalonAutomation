@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTestSuite" time="57.28" tests="2" failures="0" errors="0">
+   <testsuite name="LoginTestSuite" tests="2" failures="0" errors="0" time="57.28" skipped="0" timestamp="19-12-2023T08:32:29" hostname="nisha - DESKTOP-0OUTVH0" id="Test Suites/LoginTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nisha\\git\\TakealotKatalonAutomation\\Reports\\20231219_083225\\LoginTestSuite\\20231219_083225"/>
+         <property name="logFiles" value="C:\\Users\\nisha\\git\\TakealotKatalonAutomation\\Reports\\20231219_083225\\LoginTestSuite\\20231219_083225\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nisha - DESKTOP-0OUTVH0"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.3.138"/>
+         <property name="sessionId" value="4b90e11532e546558015cc27fefef700"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginWithRightPassword" time="14.198" classname="Test Cases/Login/LoginWithRightPassword" status="PASSED">
+         <system-out><![CDATA[19-12-2023T08:32:30 - [TEST_CASE][PASSED] - Test Cases/Login/LoginWithRightPassword: Test Cases/Login/LoginWithRightPassword
+
+19-12-2023T08:32:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+19-12-2023T08:32:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-12-2023T08:32:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-12-2023T08:32:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-12-2023T08:32:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-12-2023T08:32:32 - [TEST_STEP][PASSED] - navigateToUrl(WebsiteURL): Navigate to 'https://www.takealot.com' successfully
+
+19-12-2023T08:32:36 - [MESSAGE][PASSED] - Navigate to 'https://www.takealot.com' successfully
+
+19-12-2023T08:32:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-12-2023T08:32:36 - [MESSAGE][PASSED] - Current window maximized
+
+19-12-2023T08:32:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login")): Object: 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+19-12-2023T08:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+19-12-2023T08:32:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email"), LoginEmailVariable): Text 'nishapathak77@gmail.com' is set on object 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+19-12-2023T08:32:40 - [MESSAGE][PASSED] - Text 'nishapathak77@gmail.com' is set on object 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+19-12-2023T08:32:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password"), LoginPassword): Text ****** has been set on object 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+19-12-2023T08:32:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+19-12-2023T08:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login")): Object: 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+19-12-2023T08:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+19-12-2023T08:32:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Logout")): Object: 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Logout' is clicked on
+
+19-12-2023T08:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Logout' is clicked on
+
+19-12-2023T08:32:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+19-12-2023T08:32:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-12-2023T08:32:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/LoginWithWrongPassword" time="42.85" classname="Test Cases/Login/LoginWithWrongPassword" status="PASSED">
+         <system-out><![CDATA[19-12-2023T08:32:44 - [TEST_CASE][PASSED] - Test Cases/Login/LoginWithWrongPassword: Test Cases/Login/LoginWithWrongPassword
+
+19-12-2023T08:32:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+19-12-2023T08:32:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-12-2023T08:32:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-12-2023T08:32:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-12-2023T08:32:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-12-2023T08:32:45 - [TEST_STEP][PASSED] - navigateToUrl(WebsiteURL): Navigate to 'https://www.takealot.com' successfully
+
+19-12-2023T08:32:50 - [MESSAGE][PASSED] - Navigate to 'https://www.takealot.com' successfully
+
+19-12-2023T08:32:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-12-2023T08:32:50 - [MESSAGE][PASSED] - Current window maximized
+
+19-12-2023T08:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login")): Object: 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+19-12-2023T08:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/a_Login' is clicked on
+
+19-12-2023T08:32:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email"), "nishapatahk77@gmail.com"): Text 'nishapatahk77@gmail.com' is set on object 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+19-12-2023T08:32:53 - [MESSAGE][PASSED] - Text 'nishapatahk77@gmail.com' is set on object 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_email'
+
+19-12-2023T08:32:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password"), "XI0BHqZL+qMAClzREvMtPQ=="): Text ****** has been set on object 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+19-12-2023T08:32:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/input_password'
+
+19-12-2023T08:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login")): Object: 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+19-12-2023T08:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs lead_9e0650/button_Login' is clicked on
+
+19-12-2023T08:32:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs leading online store/div_Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled"), "Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled."): Actual text and expected text of test object 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs leading online store/div_Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled' are matched.
+
+19-12-2023T08:33:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='body']/div[5]/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+19-12-2023T08:33:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs leading online store/div_Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled'. Try using Self-healing.
+
+19-12-2023T08:33:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs leading online store/div_Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled' was broken. Propose an alternative one: '//div[(text() = 'Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled.' or . = 'Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled.')]'.
+
+19-12-2023T08:33:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginInvalidPassword/Page_Takealot.com Online Shopping  SAs leading online store/div_Incorrect Email or Password. Please try again and ensure Caps Lock is not enabled' are matched.
+
+19-12-2023T08:33:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+19-12-2023T08:33:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-12-2023T08:33:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-12-2023T08:32:29 - [TEST_SUITE][PASSED] - LoginTestSuite: Test Cases/Login/LoginWithWrongPassword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
